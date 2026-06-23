@@ -1,0 +1,136 @@
+style.css
+/* Variables de colores para cambiar el diseño fácilmente */
+:root {
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --accent-color: #38bdf8;
+    --accent-hover: #0ea5e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Hace que el deslizamiento al hacer clic sea suave */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Estilos de la sección de Bienvenida */
+.welcome-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--text-main);
+}
+
+.welcome-section p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 500px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Estilos del Botón "Saber más de mí" */
+.btn-more {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: var(--accent-color);
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+}
+
+.btn-more:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.6);
+}
+
+.btn-more:active {
+    transform: translateY(-1px);
+}
+
+/* Estilos de la sección Sobre Mí */
+.about-section {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+.profile-content p {
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+.profile-content h3 {
+    margin: 30px 0 15px 0;
+    font-size: 1.3rem;
+}
+
+.interests-list {
+    list-style: none;
+}
+
+.interests-list li {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: var(--text-main);
+    border-left: 4px solid var(--accent-color);
+}
