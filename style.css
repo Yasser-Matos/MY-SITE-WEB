@@ -137,11 +137,11 @@ body {
     margin: 30px 0 15px 0;
     font-size: 1.3rem;
 }
-.mis-valores-list{
+.valores-list{
     list-style: none;
     margin-bottom: 20px;
 }
-  .mis-valores-list li {
+  .valores-list li {
     background: rgba(255, 255, 255, 0.05);
     padding: 12px 20px;
     border-radius: 8px;
