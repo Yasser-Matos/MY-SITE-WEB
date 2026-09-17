@@ -1,5 +1,4 @@
-style.css
-/* Variables de colores para cambiar el diseño fácilmente */
+s/* Variables de colores para cambiar el diseño fácilmente */
 :root {
     --bg-color: #0f172a;
     --card-bg: #1e293b;
@@ -16,7 +15,7 @@ style.css
 }
 
 html {
-    scroll-behavior: smooth; /* Hace que el deslizamiento al hacer clic sea suave */
+    scroll-behavior: smooth;
 }
 
 body {
@@ -64,7 +63,7 @@ body {
     line-height: 1.6;
 }
 
-/* Estilos del Botón "Saber más de mí" */
+/* Estilos de los Botones */
 .btn-more {
     display: inline-block;
     padding: 14px 28px;
@@ -124,6 +123,7 @@ body {
 
 .interests-list {
     list-style: none;
+    margin-bottom: 20px;
 }
 
 .interests-list li {
@@ -134,3 +134,17 @@ body {
     color: var(--text-main);
     border-left: 4px solid var(--accent-color);
 }
+
+.warning-text {
+    color: var(--accent-color) !important;
+    font-style: italic;
+    margin-top: 15px;
+}
+```[cite: 2]
+
+---
+
+### ¿Qué debes hacer ahora en VS Code y GitHub?
+1. Guarda los cambios en ambos archivos (`Ctrl + S`).
+2. Ve al icono de **Control de código fuente** en VS Code (el de la banderita con el círculo azul).
+3. Escribe un mensaje de confirmación (ej: *"Creando segunda página sobre mí"*), haz clic en el check (`✓`) y luego haz el **Push** para actualizar tu repositorio en GitHub. ¡Tu página con múltiples páginas funcionará de maravilla!
