@@ -120,6 +120,10 @@ body {
     margin: 30px 0 15px 0;
     font-size: 1.3rem;
 }
+profile-content h4 {
+    margin: 30px 0 15px 0;
+    font-size: 1.3rem;
+}
 
 .interests-list {
     list-style: none;
