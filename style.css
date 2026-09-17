@@ -133,7 +133,7 @@ body {
     color: var(--text-main);
     border-left: 4px solid var(--accent-color);
 }
-.profile-content h4 {
+.profile-content h3 {
     margin: 30px 0 15px 0;
     font-size: 1.3rem;
 }
