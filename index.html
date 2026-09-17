@@ -1,4 +1,3 @@
-index.html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,38 +11,68 @@ index.html
 <body>
 
     <div class="container">
-        <!-- SECCIÓN 1: BIENVENIDA -->
+        <!-- SECCIÓN DE BIENVENIDA -->
         <header class="welcome-section">
-
             <h1>Hola, bienvenido a mi espacio ✨</h1>
-            <p>He creado esta página especialmente para ti. Aquí podrás conocer un poco más sobre quién soy, lo que hago y lo que me apasiona.</p
-            <!-- Botón de acción que lleva a la sección "Sobre mí" -->
-            <a href="#sobre-mi" class="btn-more">Si quieres saber más de mí, haz clic aquí</a>
+            <p>He creado esta página especialmente para ti. Aquí podrás conocer un poco más sobre quién soy, lo que hago y lo que me apasiona.</p>
+            
+            <!-- Botón que redirige a la segunda página -->
+            <a href="sobre-mi.html" class="btn-more">Si quieres saber más de mí, haz clic aquí</a>
         </header>
+    </div>
 
-        <!-- SECCIÓN 2: TU INFORMACIÓN (Se revela al hacer clic o bajar) -->
-        <section id="sobre-mi" class="about-section">
+</body>
+</html>
+```[cite: 1]
+
+---
+
+### 2. Crea un nuevo archivo llamado `sobre-mi.html` (Segunda página - Información)
+Crea un archivo nuevo en tu carpeta de VS Code con el nombre exacto de **`sobre-mi.html`** y pega este código dentro:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <!-- SECCIÓN DE INFORMACIÓN -->
+        <section class="about-section">
             <h2>Sobre Mí</h2>
             <div class="divider"></div>
             
             <div class="profile-content">
-                <!-- Puedes cambiar el texto de abajo por tu propia información -->
                 <p>
-                    ¡Hola! princesa Mi nombre es <strong>[Yasser Edwardo Matos Segura]</strong>. Actualmente me dedico a [servicio tic, ya sabes que mis pasa tiempo es anime y jugar soffball y trading].
+                    ¡Hola! princesa Mi nombre es <strong>Yasser Edwardo Matos Segura</strong>. Actualmente me dedico al servicio TIC, y ya sabes que mis pasatiempos son el anime, jugar sóftbol y el trading.
                 </p>
                 
                 <p>
-                     me gusta amar a lo intenso, me gustaria conocerte mas saber todo de ti, tener toda tu atencion y para eso se que eso no se logra solo con palabras espero poder tocar ese corazoncito de pollo. 
+                    Me gusta amar a lo intenso, me gustaría conocerte más, saber todo de ti, tener toda tu atención y para eso sé que eso no se logra solo con palabras, espero poder tocar ese corazoncito de pollo. 
                 </p>
 
                 <h3>Mis Intereses</h3>
                 <ul class="interests-list">
-                    <li> ser tu esposo JAJA</li>
+                    <li>💍 Ser tu esposo JAJA</li>
                     <li>💻 Desarrollo y Tecnología</li>
                     <li>📊 Análisis y Mercados Financieros</li>
                     <li>🏋️‍♂️ Deporte y Bienestar Físico</li>
-                    <p>y ya deja de peliar tendre que hablar con tu madre haber si te pone de castigo peleas mucho </p>
                 </ul>
+
+                <p class="warning-text">
+                    Y ya deja de pelear, tendré que hablar con tu madre a ver si te pone de castigo, ¡peleas mucho! 
+                </p>
+
+                <!-- Botón para regresar a la página principal -->
+                <div style="margin-top: 30px; text-align: center;">
+                    <a href="index.html" class="btn-more">Volver al inicio</a>
+                </div>
             </div>
         </section>
     </div>
